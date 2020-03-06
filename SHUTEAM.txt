@@ -1,0 +1,34 @@
+
+
+
+Questions to UTA
+
+	- Login is Fracked
+	- Rest? Communication?
+	- Latest version / python/branch, etc.
+	- What is your feature list
+
+
+
+FabApp - New features
+	
+	- Devices management
+	
+
+FabApp - Fixes
+
+	- Config class
+	- SQL class
+	- Login class 
+
+
+FabBox - New features
+
+	- Touchscreen
+	- Power usage
+	- Setup/install script
+	- Status LED
+	- Rest
+	- logging of each event
+	- Sync program to the server (from the log)
+
