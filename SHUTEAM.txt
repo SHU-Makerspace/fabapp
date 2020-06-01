@@ -32,3 +32,22 @@ FabBox - New features
 	- logging of each event
 	- Sync program to the server (from the log)
 
+
+
+OS INSTALLATION
+
+	Debian 10.4
+	apt update
+	apt-get -y install mariadb-server mariadb-client
+	mysql_secure_installation
+	vi /etc/mysql/mariadb.conf.d/50-server.cnf
+		-> Comment out bind-address=127.0.0.1 to allow remote access
+	service mysql restart
+	apt install php libapache2-mod-php
+	systemctl restart apache2
+	To add extension: apt install php-EXTENSION Ex; php-mysql php-gd 
+	To search whole list: apt-cache search php
+
+FabOS INSTALLATION
+
+	
